@@ -1,0 +1,192 @@
+html, body {
+  font-family: lato, helvetica, sans-serif;
+  font-size: calc(16px + (24 - 16) * (50vw - 400px) / (1600 - 400));
+  background-color: white;
+  height: 100vh;
+  margin: 0 16px;
+}
+
+/* Tittle and image */
+
+#title {
+  text-align: center;
+  font-size: 5.5vw;
+  margin: 40px 0;
+}
+
+#img-div {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 40%;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+#image {
+  display: block; 
+  height: auto;
+  width: 100%;
+  border-radius: 9px;
+  box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.1);
+}
+
+#img-caption {
+  text-align: center;
+  padding: 3px 3px;
+  font-size: 	0.8125rem;
+}
+
+#img-caption p {
+  margin-bottom: 0px;
+}
+
+/* Article/info */
+
+#tribute-info {
+  line-height: 1.5;
+  font-size: 0.875rem;
+  margin-bottom: 40px;
+}
+
+h4 {
+  margin-top: 40px;
+  margin-bottom: 14px;
+}
+
+/* Footer/source */
+
+footer {
+  text-align: center;
+  font-size: 	0.8125rem;
+}
+
+p a {
+  text-decoration: none;
+  color: #36b;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+html, body {
+  background-color: black;
+  font-family: 'Open Sans', sans-serif;
+  height: 100vh;
+}
+
+body {
+  display: grid;
+  grid-template-areas: 
+  "header img"
+  "main   main" 
+  "footer footer";
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr; 
+  margin-top: 4rem;
+}
+
+header {
+  
+  grid-area: header;
+  justify-self: center;
+  text-align: end;
+  font-size: 4vw;
+  margin-bottom: 8rem;
+}
+
+.sun {
+  font-weight: 500;
+  color: #F9E29B;
+  opacity: 0.9;
+}
+
+.chariot {
+  font-weight: 500;
+  color: #F9E29B;
+  opacity: 0.9;
+  line-height: .4rem;
+}
+
+img {
+  grid-area: img;
+  max-width: 67%;
+  height: auto;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  margin-top: -.5rem;
+}
+
+
+main {
+  grid-area: main;
+  background-color: black;
+  color: #F9E29B;
+  opacity: 0.9;
+  font-size: .9rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+p {
+  color: #F9E29B;
+  opacity: .6;
+  line-height: 1.25rem;
+}
+
+ul {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  color: #F9E29B;
+  opacity: .6;
+  line-height: 1.25rem;
+}
+
+iframe {
+  margin: auto;
+  display: block;
+}
+
+footer {
+  grid-area: footer;
+  text-align: center;
+  background-color: black;
+  color: #F9E29B;
+  opacity: 0.9;
+}
+
+*/
