@@ -1,61 +1,57 @@
 html, body {
   font-family: lato, helvetica, sans-serif;
-  font-size: calc(16px + (24 - 16) * (50vw - 400px) / (1600 - 400));
+  /* font-size: calc(16px + (24 - 16) * (50vw - 400px) / (1600 - 400)); */
   background-color: white;
-  height: 100vh;
-  margin: 0 16px;
+  margin: 0 1rem;
 }
 
 /* Tittle and image */
-
-#title {
+.title {
   text-align: center;
   font-size: 5.5vw;
-  margin: 40px 0;
+  margin: 2.5rem 0;
 }
 
-#img-div {
+.img-div {
   margin-left: auto;
   margin-right: auto;
   max-width: 40%;
   background-color: white;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem
 }
 
-#image {
+.image {
   display: block; 
   height: auto;
   width: 100%;
-  border-radius: 9px;
-  box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.1);
+  /* border-radius: 0.5625rem; */
+  box-shadow: 0 0.25rem 0.5rem 0.25rem rgba(0, 0, 0, 0.1);
 }
 
-#img-caption {
+.img-caption {
   text-align: center;
-  padding: 3px 3px;
+  padding: 0.1875rem 0.1875rem;
   font-size: 	0.8125rem;
 }
 
-#img-caption p {
-  margin-bottom: 0px;
+.img-caption p {
+  margin-bottom: 0rem;
 }
 
 /* Article/info */
-
-#tribute-info {
+.tribute-info {
   line-height: 1.5;
   font-size: 0.875rem;
-  margin-bottom: 40px;
+  margin-bottom: 2.5rem;
 }
 
 h4 {
-  margin-top: 40px;
-  margin-bottom: 14px;
+  margin-top: 2.5rem;
+  margin-bottom: 0.875rem;
 }
 
 /* Footer/source */
-
-footer {
+.footer {
   text-align: center;
   font-size: 	0.8125rem;
 }
@@ -72,8 +68,8 @@ p a:hover {
 hr {
   border: 0;
   height: 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  border-top: 0.0625rem solid rgba(0, 0, 0, 0.1);
+  border-bottom: 0.0625rem solid rgba(255, 255, 255, 0.3);
 }
 
 
