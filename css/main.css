@@ -5,6 +5,7 @@ body {
   /* font-size: calc(16px + (24 - 16) * (50vw - 400px) / (1600 - 400)); */
   margin: 0 auto;
   text-align: center;
+  line-height: 1.25;
 }
 
 /* Logo and image */
