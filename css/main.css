@@ -10,8 +10,8 @@ body {
 
 /* Logo and image */
 .logo {
-  margin-top: 3.75rem;
   margin-bottom: 0.25rem;
+  margin-top: 3.75rem;
 }
 
 .image {
@@ -64,8 +64,8 @@ a:hover {
 /* Footer  */
 hr {
   border: 0;
-  border-top: 0.0625rem solid rgba(0, 0, 0, 0.1);
   border-bottom: 0.0625rem solid rgba(255, 255, 255, 0.3);
+  border-top: 0.0625rem solid rgba(0, 0, 0, 0.1);
   height: 0;
 }
 
