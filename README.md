@@ -2,10 +2,10 @@
 
 Practice project from freeCodeCamp using HTML/CSS.
 
-## Todo
+<!-- 
+ToDO
 
-1. Add screenshot
-1. Fix responsiveness 
-  * Image on mobile
-  * Fluid fonts
-  * Image caption
+* Curated articles and links...
+* Auto fit buttons
+* Push content automatically
+ -->
